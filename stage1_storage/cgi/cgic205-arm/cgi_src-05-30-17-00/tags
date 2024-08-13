@@ -1,0 +1,403 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFLAGS	Makefile	/^AFLAGS=-Wall -g$/;"	m
+APPEND	cgic.c	652;"	d	file:
+BAPPEND	cgic.c	673;"	d	file:
+BUZZER_OFF	data_global.h	19;"	d
+BUZZER_ON	data_global.h	18;"	d
+CC	Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+CGICDEBUGEND	cgic.c	17;"	d	file:
+CGICDEBUGEND	cgic.c	22;"	d	file:
+CGICDEBUGSTART	cgic.c	12;"	d	file:
+CGICDEBUGSTART	cgic.c	21;"	d	file:
+CGIC_VERSION	cgic.c	1874;"	d	file:
+CGI_C	cgic.h	7;"	d
+COLLECT_CURRENT_GET	data_global.h	72;"	d
+COLLECT_INSERTER	data_global.h	70;"	d
+COLLECT_TIME_GET	data_global.h	71;"	d
+DEV_BUZZER	data_global.h	12;"	d
+DEV_CAMERA	data_global.h	14;"	d
+DEV_GPRS	data_global.h	9;"	d
+DEV_INFRARED	data_global.h	13;"	d
+DEV_LED	data_global.h	11;"	d
+DEV_ZIGBEE	data_global.h	10;"	d
+ENV_GET	data_global.h	69;"	d
+ENV_UPDATE	data_global.h	68;"	d
+From_to_send	set_sms.c	/^struct From_to_send{$/;"	s	file:
+From_to_send	wifi.c	/^struct From_to_send{$/;"	s	file:
+GOODS_ADD	data_global.h	73;"	d
+GOODS_GET	data_global.h	75;"	d
+GOODS_IN	data_global.h	28;"	d
+GOODS_NUM	data_global.h	27;"	d
+GOODS_OUT	data_global.h	29;"	d
+GOODS_REDUCE	data_global.h	74;"	d
+LED_OFF	data_global.h	17;"	d
+LED_ON	data_global.h	16;"	d
+MSGTYPE_ACK	data_global.h	23;"	d
+MSGTYPE_ENV	data_global.h	21;"	d
+MSGTYPE_GOODS	data_global.h	22;"	d
+MSG_BEEP	data_global.h	47;"	d
+MSG_BEEP_OFF	data_global.h	48;"	d
+MSG_BEEP_ON	data_global.h	49;"	d
+MSG_LED	data_global.h	39;"	d
+MSG_LED_HUM_OFF	data_global.h	43;"	d
+MSG_LED_HUM_ON	data_global.h	42;"	d
+MSG_LED_ILL_OFF	data_global.h	45;"	d
+MSG_LED_ILL_ON	data_global.h	44;"	d
+MSG_LED_TEM_OFF	data_global.h	41;"	d
+MSG_LED_TEM_ON	data_global.h	40;"	d
+MSG_M0	data_global.h	51;"	d
+MSG_M0_BEEP_AU_OFF	data_global.h	59;"	d
+MSG_M0_BEEP_AU_ON	data_global.h	60;"	d
+MSG_M0_BEEP_OFF	data_global.h	57;"	d
+MSG_M0_BEEP_ON	data_global.h	58;"	d
+MSG_M0_FAN_OFF	data_global.h	52;"	d
+MSG_M0_FAN_ON1	data_global.h	53;"	d
+MSG_M0_FAN_ON2	data_global.h	54;"	d
+MSG_M0_FAN_ON3	data_global.h	55;"	d
+MSG_M0_LED_OFF	data_global.h	62;"	d
+MSG_M0_LED_ON	data_global.h	63;"	d
+MSG_M0_SEG_OFF	data_global.h	66;"	d
+MSG_M0_SEG_ON	data_global.h	65;"	d
+N	beep.c	11;"	d	file:
+N	capture.c	14;"	d	file:
+N	env1.c	14;"	d	file:
+N	env2.c	14;"	d	file:
+N	led1.c	11;"	d	file:
+N	led2.c	11;"	d	file:
+N	led3.c	11;"	d	file:
+N	led4.c	11;"	d	file:
+N	m0_beep.c	14;"	d	file:
+N	m0_fan.c	14;"	d	file:
+N	m0_led.c	14;"	d	file:
+N	m0_seg.c	14;"	d	file:
+N	setEnv.c	11;"	d	file:
+N	set_sms.c	11;"	d	file:
+N	wifi.c	11;"	d	file:
+OBJS	Makefile	/^OBJS=beep.cgi led1.cgi led2.cgi led3.cgi led4.cgi capture.cgi picture1.cgi picture2.cgi m0_beep.cgi m0_fan.cgi m0_led.cgi \\$/;"	m
+QUEUE_MSG_LEN	data_global.h	36;"	d
+RAPPEND	cgic.c	659;"	d	file:
+SMS_BRE	data_global.h	34;"	d
+SMS_HUM	data_global.h	32;"	d
+SMS_ILL	data_global.h	33;"	d
+SMS_TEM	data_global.h	31;"	d
+STORAGE_NUM	data_global.h	25;"	d
+STO_NO	env1.c	16;"	d	file:
+STO_NO	env2.c	16;"	d	file:
+TRYPUTC	cgic.c	2459;"	d	file:
+__DATA_GLOBAL__	data_global.h	2;"	d
+__SEM_H__	sem.h	2;"	d
+__buf	sem.h	/^	struct seminfo  *__buf;  \/* Buffer for IPC_INFO$/;"	m	union:semun	typeref:struct:semun::seminfo
+adc	data_global.h	/^	float adc;$/;"	m	struct:storage_info
+adcMIN	data_global.h	/^	float adcMIN;$/;"	m	struct:storage_info
+afterNextBoundary	cgic.c	/^cgiParseResultType afterNextBoundary(mpStreamPtr mpp, FILE *outf, char **outP,$/;"	f
+array	sem.h	/^	unsigned short  *array;  \/* Array for GETALL, SETALL *\/$/;"	m	union:semun
+attr	cgic.c	/^        char *attr;$/;"	m	struct:cgiFormEntryStruct	file:
+battery	data_global.h	/^	float battery;$/;"	m	struct:storage_info
+beepbuf	beep.c	/^char beepbuf[N];$/;"	v
+buf	sem.h	/^	struct semid_ds *buf;    \/* Buffer for IPC_STAT, IPC_SET *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds
+buzzer_status	data_global.h	/^	unsigned char buzzer_status;$/;"	m	struct:storage_info
+center_number	set_sms.c	/^	char center_number[12];$/;"	m	struct:From_to_send	file:
+cgiAccept	cgic.c	/^char *cgiAccept;$/;"	v
+cgiAuthType	cgic.c	/^char *cgiAuthType;$/;"	v
+cgiContentLength	cgic.c	/^int cgiContentLength;$/;"	v
+cgiContentType	cgic.c	/^char *cgiContentType = cgiContentTypeData;$/;"	v
+cgiContentTypeData	cgic.c	/^char cgiContentTypeData[1024];$/;"	v
+cgiCookie	cgic.c	/^char *cgiCookie;$/;"	v
+cgiCookieInteger	cgic.c	/^cgiFormResultType cgiCookieInteger($/;"	f
+cgiCookieString	cgic.c	/^cgiFormResultType cgiCookieString($/;"	f
+cgiCookies	cgic.c	/^cgiFormResultType cgiCookies(char ***result) {$/;"	f
+cgiEnvironmentIO	cgic.h	/^	cgiEnvironmentIO,$/;"	e	enum:__anon2
+cgiEnvironmentMemory	cgic.h	/^	cgiEnvironmentMemory,$/;"	e	enum:__anon2
+cgiEnvironmentResultType	cgic.h	/^} cgiEnvironmentResultType;$/;"	t	typeref:enum:__anon2
+cgiEnvironmentSuccess	cgic.h	/^	cgiEnvironmentSuccess,$/;"	e	enum:__anon2
+cgiEnvironmentWrongVersion	cgic.h	/^	cgiEnvironmentWrongVersion$/;"	e	enum:__anon2
+cgiEscapeFirst	cgic.c	/^	cgiEscapeFirst,$/;"	e	enum:__anon5	file:
+cgiEscapeRest	cgic.c	/^	cgiEscapeRest,$/;"	e	enum:__anon5	file:
+cgiEscapeSecond	cgic.c	/^	cgiEscapeSecond$/;"	e	enum:__anon5	file:
+cgiEscapeState	cgic.c	/^} cgiEscapeState;$/;"	t	typeref:enum:__anon5	file:
+cgiFile	cgic.c	/^} cgiFile;$/;"	t	typeref:struct:cgiFileStruct	file:
+cgiFilePtr	cgic.h	/^typedef struct cgiFileStruct *cgiFilePtr;$/;"	t	typeref:struct:cgiFileStruct
+cgiFileStruct	cgic.c	/^typedef struct cgiFileStruct {$/;"	s	file:
+cgiFindPos	cgic.c	/^static cgiFormEntry *cgiFindPos = 0;$/;"	v	file:
+cgiFindTarget	cgic.c	/^static char *cgiFindTarget = 0;$/;"	v	file:
+cgiFirstNonspaceChar	cgic.c	/^static int cgiFirstNonspaceChar(char *s) {$/;"	f	file:
+cgiFormBadType	cgic.h	/^	cgiFormBadType,$/;"	e	enum:__anon1
+cgiFormCheckboxMultiple	cgic.c	/^extern cgiFormResultType cgiFormCheckboxMultiple($/;"	f
+cgiFormCheckboxSingle	cgic.c	/^cgiFormResultType cgiFormCheckboxSingle($/;"	f
+cgiFormConstrained	cgic.h	/^	cgiFormConstrained,$/;"	e	enum:__anon1
+cgiFormDouble	cgic.c	/^cgiFormResultType cgiFormDouble($/;"	f
+cgiFormDoubleBounded	cgic.c	/^cgiFormResultType cgiFormDoubleBounded($/;"	f
+cgiFormEOF	cgic.h	/^	cgiFormEOF$/;"	e	enum:__anon1
+cgiFormEmpty	cgic.h	/^	cgiFormEmpty,$/;"	e	enum:__anon1
+cgiFormEntries	cgic.c	/^cgiFormResultType cgiFormEntries(char ***result) {$/;"	f
+cgiFormEntry	cgic.c	/^} cgiFormEntry;$/;"	t	typeref:struct:cgiFormEntryStruct	file:
+cgiFormEntryFindFirst	cgic.c	/^static cgiFormEntry *cgiFormEntryFindFirst(char *name) {$/;"	f	file:
+cgiFormEntryFindNext	cgic.c	/^static cgiFormEntry *cgiFormEntryFindNext() {$/;"	f	file:
+cgiFormEntryFirst	cgic.c	/^static cgiFormEntry *cgiFormEntryFirst;$/;"	v	file:
+cgiFormEntryString	cgic.c	/^static cgiFormResultType cgiFormEntryString($/;"	f	file:
+cgiFormEntryStruct	cgic.c	/^typedef struct cgiFormEntryStruct {$/;"	s	file:
+cgiFormFileClose	cgic.c	/^cgiFormResultType cgiFormFileClose(cgiFilePtr cfp)$/;"	f
+cgiFormFileContentType	cgic.c	/^cgiFormResultType cgiFormFileContentType($/;"	f
+cgiFormFileName	cgic.c	/^cgiFormResultType cgiFormFileName($/;"	f
+cgiFormFileOpen	cgic.c	/^cgiFormResultType cgiFormFileOpen($/;"	f
+cgiFormFileRead	cgic.c	/^cgiFormResultType cgiFormFileRead($/;"	f
+cgiFormFileSize	cgic.c	/^cgiFormResultType cgiFormFileSize($/;"	f
+cgiFormIO	cgic.h	/^	cgiFormIO,$/;"	e	enum:__anon1
+cgiFormInteger	cgic.c	/^cgiFormResultType cgiFormInteger($/;"	f
+cgiFormIntegerBounded	cgic.c	/^cgiFormResultType cgiFormIntegerBounded($/;"	f
+cgiFormMemory	cgic.h	/^	cgiFormMemory,$/;"	e	enum:__anon1
+cgiFormNoContentType	cgic.h	/^	cgiFormNoContentType,$/;"	e	enum:__anon1
+cgiFormNoFileName	cgic.h	/^	cgiFormNoFileName,$/;"	e	enum:__anon1
+cgiFormNoSuchChoice	cgic.h	/^	cgiFormNoSuchChoice,$/;"	e	enum:__anon1
+cgiFormNotAFile	cgic.h	/^	cgiFormNotAFile,$/;"	e	enum:__anon1
+cgiFormNotFound	cgic.h	/^	cgiFormNotFound,$/;"	e	enum:__anon1
+cgiFormOpenFailed	cgic.h	/^	cgiFormOpenFailed,$/;"	e	enum:__anon1
+cgiFormRadio	cgic.c	/^cgiFormResultType cgiFormRadio($/;"	f
+cgiFormResultType	cgic.h	/^} cgiFormResultType;$/;"	t	typeref:enum:__anon1
+cgiFormSelectMultiple	cgic.c	/^cgiFormResultType cgiFormSelectMultiple($/;"	f
+cgiFormSelectSingle	cgic.c	/^cgiFormResultType cgiFormSelectSingle($/;"	f
+cgiFormString	cgic.c	/^cgiFormResultType cgiFormString($/;"	f
+cgiFormStringMultiple	cgic.c	/^cgiFormResultType cgiFormStringMultiple($/;"	f
+cgiFormStringNoNewlines	cgic.c	/^cgiFormResultType cgiFormStringNoNewlines($/;"	f
+cgiFormStringSpaceNeeded	cgic.c	/^cgiFormResultType cgiFormStringSpaceNeeded($/;"	f
+cgiFormSubmitClicked	cgic.h	131;"	d
+cgiFormSuccess	cgic.h	/^	cgiFormSuccess,$/;"	e	enum:__anon1
+cgiFormTruncated	cgic.h	/^	cgiFormTruncated,$/;"	e	enum:__anon1
+cgiFreeResources	cgic.c	/^static void cgiFreeResources() {$/;"	f	file:
+cgiGatewayInterface	cgic.c	/^char *cgiGatewayInterface;$/;"	v
+cgiGetenv	cgic.c	/^static void cgiGetenv(char **s, char *var){$/;"	f	file:
+cgiHeaderContentType	cgic.c	/^void cgiHeaderContentType(char *mimeType) {$/;"	f
+cgiHeaderCookieSetInteger	cgic.c	/^void cgiHeaderCookieSetInteger(char *name, int value, int secondsToLive,$/;"	f
+cgiHeaderCookieSetString	cgic.c	/^void cgiHeaderCookieSetString(char *name, char *value, int secondsToLive,$/;"	f
+cgiHeaderLocation	cgic.c	/^void cgiHeaderLocation(char *redirectUrl) {$/;"	f
+cgiHeaderStatus	cgic.c	/^void cgiHeaderStatus(int status, char *statusMessage) {$/;"	f
+cgiHexValue	cgic.c	/^static int cgiHexValue[256];$/;"	v	file:
+cgiHtmlEscape	cgic.c	/^cgiFormResultType cgiHtmlEscape(char *s)$/;"	f
+cgiHtmlEscapeData	cgic.c	/^cgiFormResultType cgiHtmlEscapeData(char *data, int len)$/;"	f
+cgiIn	cgic.c	/^FILE *cgiIn;$/;"	v
+cgiMain	beep.c	/^int cgiMain()$/;"	f
+cgiMain	capture.c	/^int cgiMain() $/;"	f
+cgiMain	env1.c	/^int cgiMain()$/;"	f
+cgiMain	env2.c	/^int cgiMain()$/;"	f
+cgiMain	led1.c	/^int cgiMain()$/;"	f
+cgiMain	led2.c	/^int cgiMain()$/;"	f
+cgiMain	led3.c	/^int cgiMain()$/;"	f
+cgiMain	led4.c	/^int cgiMain()$/;"	f
+cgiMain	login.c	/^int cgiMain()$/;"	f
+cgiMain	m0_beep.c	/^int cgiMain() $/;"	f
+cgiMain	m0_fan.c	/^int cgiMain() $/;"	f
+cgiMain	m0_led.c	/^int cgiMain() $/;"	f
+cgiMain	m0_seg.c	/^int cgiMain() $/;"	f
+cgiMain	picture1.c	/^int cgiMain()$/;"	f
+cgiMain	picture2.c	/^int cgiMain()$/;"	f
+cgiMain	setEnv.c	/^int cgiMain()$/;"	f
+cgiMain	set_sms.c	/^int cgiMain()$/;"	f
+cgiMain	wifi.c	/^int cgiMain()$/;"	f
+cgiMultipartBoundary	cgic.c	/^char *cgiMultipartBoundary;$/;"	v
+cgiOut	cgic.c	/^FILE *cgiOut;$/;"	v
+cgiParseFormInput	cgic.c	/^static cgiParseResultType cgiParseFormInput(char *data, int length) {$/;"	f	file:
+cgiParseGetFormInput	cgic.c	/^static cgiParseResultType cgiParseGetFormInput() {$/;"	f	file:
+cgiParseIO	cgic.c	/^	cgiParseIO$/;"	e	enum:__anon3	file:
+cgiParseMemory	cgic.c	/^	cgiParseMemory,$/;"	e	enum:__anon3	file:
+cgiParsePostFormInput	cgic.c	/^static cgiParseResultType cgiParsePostFormInput() {$/;"	f	file:
+cgiParsePostMultipartInput	cgic.c	/^static cgiParseResultType cgiParsePostMultipartInput() {$/;"	f	file:
+cgiParseResultType	cgic.c	/^} cgiParseResultType;$/;"	t	typeref:enum:__anon3	file:
+cgiParseSuccess	cgic.c	/^	cgiParseSuccess,$/;"	e	enum:__anon3	file:
+cgiPathInfo	cgic.c	/^char *cgiPathInfo;$/;"	v
+cgiPathTranslated	cgic.c	/^char *cgiPathTranslated;$/;"	v
+cgiQueryString	cgic.c	/^char *cgiQueryString;$/;"	v
+cgiReadEnvironment	cgic.c	/^cgiEnvironmentResultType cgiReadEnvironment(char *filename) {$/;"	f
+cgiReadInt	cgic.c	/^static int cgiReadInt(FILE *out, int *i) {$/;"	f	file:
+cgiReadString	cgic.c	/^static int cgiReadString(FILE *in, char **s) {$/;"	f	file:
+cgiReferer	cgic.h	48;"	d
+cgiReferrer	cgic.c	/^char *cgiReferrer;$/;"	v
+cgiRemoteAddr	cgic.c	/^char *cgiRemoteAddr;$/;"	v
+cgiRemoteHost	cgic.c	/^char *cgiRemoteHost;$/;"	v
+cgiRemoteIdent	cgic.c	/^char *cgiRemoteIdent;$/;"	v
+cgiRemoteUser	cgic.c	/^char *cgiRemoteUser;$/;"	v
+cgiRequestMethod	cgic.c	/^char *cgiRequestMethod;$/;"	v
+cgiRestored	cgic.c	/^static int cgiRestored = 0;$/;"	v	file:
+cgiScriptName	cgic.c	/^char *cgiScriptName;$/;"	v
+cgiServerName	cgic.c	/^char *cgiServerName;$/;"	v
+cgiServerPort	cgic.c	/^char *cgiServerPort;$/;"	v
+cgiServerProtocol	cgic.c	/^char *cgiServerProtocol;$/;"	v
+cgiServerSoftware	cgic.c	/^char *cgiServerSoftware;$/;"	v
+cgiSetupConstants	cgic.c	/^static void cgiSetupConstants() {$/;"	f	file:
+cgiStrBeginsNc	cgic.c	/^static int cgiStrBeginsNc(char *s1, char *s2) {$/;"	f	file:
+cgiStrEq	cgic.c	44;"	d	file:
+cgiStrEqNc	cgic.c	/^static int cgiStrEqNc(char *s1, char *s2) {$/;"	f	file:
+cgiStringArrayFree	cgic.c	/^void cgiStringArrayFree(char **stringArray) {$/;"	f
+cgiUnescapeChars	cgic.c	/^cgiUnescapeResultType cgiUnescapeChars(char **sp, char *cp, int len) {$/;"	f
+cgiUnescapeMemory	cgic.c	/^	cgiUnescapeMemory$/;"	e	enum:__anon6	file:
+cgiUnescapeResultType	cgic.c	/^} cgiUnescapeResultType;$/;"	t	typeref:enum:__anon6	file:
+cgiUnescapeSuccess	cgic.c	/^	cgiUnescapeSuccess,$/;"	e	enum:__anon6	file:
+cgiUserAgent	cgic.c	/^char *cgiUserAgent;$/;"	v
+cgiValueEscape	cgic.c	/^cgiFormResultType cgiValueEscape(char *s)$/;"	f
+cgiValueEscapeData	cgic.c	/^cgiFormResultType cgiValueEscapeData(char *data, int len)$/;"	f
+cgiWriteEnvironment	cgic.c	/^cgiEnvironmentResultType cgiWriteEnvironment(char *filename) {$/;"	f
+cgiWriteInt	cgic.c	/^static int cgiWriteInt(FILE *out, int i) {$/;"	f	file:
+cgiWriteString	cgic.c	/^static int cgiWriteString(FILE *out, char *s) {$/;"	f	file:
+cgi_status	env1.c	/^	char cgi_status;$/;"	m	struct:shm_addr	file:
+cgi_status	env2.c	/^	char cgi_status;$/;"	m	struct:shm_addr	file:
+cgicTempDir	cgic.c	9;"	d	file:
+contentType	cgic.c	/^	char *contentType;$/;"	m	struct:cgiFormEntryStruct	file:
+crc	data_global.h	/^	short crc;$/;"	m	struct:data_all
+data_all	data_global.h	/^struct data_all$/;"	s
+days	cgic.c	/^char *days[] = {$/;"	v
+decomposeValue	cgic.c	/^static void decomposeValue(char *value,$/;"	f	file:
+dev_no	data_global.h	/^	unsigned char dev_no;$/;"	m	struct:data_all
+env_info_clien_addr	data_global.h	/^struct env_info_clien_addr$/;"	s
+env_operation_mask	data_global.h	/^	int env_operation_mask;$/;"	m	struct:sqlite_operation
+fan_status	data_global.h	/^	unsigned char fan_status;$/;"	m	struct:storage_info
+fan_status	env1.c	/^char fan_status[4][6] = {"Close", "One", "Two", "Three"};$/;"	v
+fan_status	env2.c	/^char fan_status[4][6] = {"Close", "One", "Two", "Three"};$/;"	v
+fileName	cgic.c	/^	char *fileName;	$/;"	m	struct:cgiFormEntryStruct	file:
+gateway	wifi.c	/^	char gateway[12];$/;"	m	struct:From_to_send	file:
+getTempFileName	cgic.c	/^static cgiParseResultType getTempFileName(char *tfileName)$/;"	f	file:
+get_beep	beep.c	/^void get_beep()$/;"	f
+get_led1	led1.c	/^void get_led1()$/;"	f
+get_led2	led2.c	/^void get_led2()$/;"	f
+get_led3	led3.c	/^void get_led3()$/;"	f
+get_led4	led4.c	/^void get_led4()$/;"	f
+get_set_sms	set_sms.c	/^void get_set_sms()$/;"	f
+get_set_sms	wifi.c	/^void get_set_sms()$/;"	f
+goods_count	data_global.h	/^	unsigned char goods_count;$/;"	m	struct:rfid_info
+goods_count	data_global.h	/^	unsigned int goods_count;$/;"	m	struct:storage_goods_info
+goods_info	data_global.h	/^	struct rfid_info goods_info;$/;"	m	struct:data_all	typeref:struct:data_all::rfid_info
+goods_info	data_global.h	/^	struct storage_goods_info goods_info[GOODS_NUM];$/;"	m	struct:storage_info	typeref:struct:storage_info::storage_goods_info
+goods_no	data_global.h	/^	unsigned char goods_no;$/;"	m	struct:rfid_info
+goods_operation_mask	data_global.h	/^	int goods_operation_mask;$/;"	m	struct:sqlite_operation
+goods_type	data_global.h	/^	unsigned char goods_type;$/;"	m	struct:storage_goods_info
+humMAX	setEnv.c	/^	int humMAX;$/;"	m	struct:setEnv	file:
+humMIN	setEnv.c	/^	int humMIN;$/;"	m	struct:setEnv	file:
+humidity	data_global.h	/^	float humidity;$/;"	m	struct:data_all
+humidity	data_global.h	/^	float humidity;$/;"	m	struct:storage_info
+humidityMAX	data_global.h	/^	float humidityMAX;$/;"	m	struct:storage_info
+humidityMIN	data_global.h	/^	float humidityMIN;$/;"	m	struct:storage_info
+illMAX	setEnv.c	/^	int illMAX;$/;"	m	struct:setEnv	file:
+illMIN	setEnv.c	/^	int illMIN;$/;"	m	struct:setEnv	file:
+illumination	data_global.h	/^	float illumination;$/;"	m	struct:data_all
+illumination	data_global.h	/^	float illumination;$/;"	m	struct:storage_info
+illuminationMAX	data_global.h	/^	float illuminationMAX;$/;"	m	struct:storage_info
+illuminationMIN	data_global.h	/^	float illuminationMIN;$/;"	m	struct:storage_info
+in	cgic.c	/^	FILE *in;$/;"	m	struct:cgiFileStruct	file:
+init_sem	sem.h	/^int init_sem(int semid, int num, int val)$/;"	f
+ip	wifi.c	/^	char ip[12];$/;"	m	struct:From_to_send	file:
+led_status	data_global.h	/^	unsigned char led_status;$/;"	m	struct:storage_info
+ledbuf	led1.c	/^char ledbuf[N];$/;"	v
+ledbuf	led2.c	/^char ledbuf[N];$/;"	v
+ledbuf	led3.c	/^char ledbuf[N];$/;"	v
+ledbuf	led4.c	/^char ledbuf[N];$/;"	v
+main	cgic.c	/^int main(int argc, char *argv[]) {$/;"	f
+months	cgic.c	/^char *months[] = {$/;"	v
+mpPutBack	cgic.c	/^void mpPutBack(mpStreamPtr mpp, char *data, int len)$/;"	f
+mpRead	cgic.c	/^int mpRead(mpStreamPtr mpp, char *buffer, int len)$/;"	f
+mpStream	cgic.c	/^} mpStream, *mpStreamPtr;$/;"	t	typeref:struct:__anon4	file:
+mpStreamPtr	cgic.c	/^} mpStream, *mpStreamPtr;$/;"	t	typeref:struct:__anon4	file:
+msg	beep.c	/^struct msg$/;"	s	file:
+msg	capture.c	/^struct msg$/;"	s	file:
+msg	data_global.h	/^struct msg$/;"	s
+msg	led1.c	/^struct msg$/;"	s	file:
+msg	led2.c	/^struct msg$/;"	s	file:
+msg	led3.c	/^struct msg$/;"	s	file:
+msg	led4.c	/^struct msg$/;"	s	file:
+msg	m0_beep.c	/^struct msg$/;"	s	file:
+msg	m0_fan.c	/^struct msg$/;"	s	file:
+msg	m0_led.c	/^struct msg$/;"	s	file:
+msg	m0_seg.c	/^struct msg$/;"	s	file:
+msg	setEnv.c	/^struct msg$/;"	s	file:
+msg	set_sms.c	/^struct msg$/;"	s	file:
+msg	wifi.c	/^struct msg$/;"	s	file:
+msg_type	data_global.h	/^	unsigned char msg_type;$/;"	m	struct:data_all
+msgtype	beep.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	capture.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	data_global.h	/^	long msgtype;$/;"	m	struct:msg
+msgtype	led1.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	led2.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	led3.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	led4.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	m0_beep.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	m0_fan.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	m0_led.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	m0_seg.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	setEnv.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	set_sms.c	/^	long msgtype;$/;"	m	struct:msg	file:
+msgtype	wifi.c	/^	long msgtype;$/;"	m	struct:msg	file:
+next	cgic.c	/^        struct cgiFormEntryStruct *next;$/;"	m	struct:cgiFormEntryStruct	typeref:struct:cgiFormEntryStruct::cgiFormEntryStruct	file:
+offset	cgic.c	/^	int offset;$/;"	m	struct:__anon4	file:
+phone_NUM	set_sms.c	/^}phone_NUM;$/;"	v	typeref:struct:From_to_send
+phone_NUM	wifi.c	/^}phone_NUM;$/;"	v	typeref:struct:From_to_send
+putback	cgic.c	/^	char putback[1024];	$/;"	m	struct:__anon4	file:
+qt_status	env1.c	/^	char qt_status;$/;"	m	struct:shm_addr	file:
+qt_status	env2.c	/^	char qt_status;$/;"	m	struct:shm_addr	file:
+readHeaderLine	cgic.c	/^static int readHeaderLine($/;"	f	file:
+readPos	cgic.c	/^	int readPos;$/;"	m	struct:__anon4	file:
+rfid_info	data_global.h	/^struct rfid_info$/;"	s
+rfid_type	data_global.h	/^	unsigned char rfid_type;	$/;"	m	struct:rfid_info
+rt_status	env1.c	/^	struct env_info_clien_addr rt_status;$/;"	m	struct:shm_addr	typeref:struct:shm_addr::env_info_clien_addr	file:
+rt_status	env2.c	/^	struct env_info_clien_addr rt_status;$/;"	m	struct:shm_addr	typeref:struct:shm_addr::env_info_clien_addr	file:
+samplingTime	data_global.h	/^	char samplingTime[20];$/;"	m	struct:storage_info
+seg_status	data_global.h	/^	unsigned char seg_status;$/;"	m	struct:storage_info
+sem_p	sem.h	/^int sem_p(int semid, int num)$/;"	f
+sem_v	sem.h	/^int sem_v(int semid, int num)$/;"	f
+semun	sem.h	/^union semun {$/;"	u
+setEnv	setEnv.c	/^struct setEnv$/;"	s	file:
+shm_addr	env1.c	/^struct shm_addr$/;"	s	file:
+shm_addr	env2.c	/^struct shm_addr$/;"	s	file:
+sqlite_operation	data_global.h	/^struct sqlite_operation$/;"	s
+status	env1.c	/^char status[2][6] = {"Close", "Open"};$/;"	v
+status	env2.c	/^char status[2][6] = {"Close", "Open"};$/;"	v
+storage_goods_info	data_global.h	/^struct storage_goods_info$/;"	s
+storage_info	data_global.h	/^struct storage_info$/;"	s
+storage_no	data_global.h	/^	struct storage_info storage_no[STORAGE_NUM];	$/;"	m	struct:env_info_clien_addr	typeref:struct:env_info_clien_addr::storage_info
+storage_status	data_global.h	/^	unsigned char storage_status;				\/\/ 0:open 1:close$/;"	m	struct:storage_info
+table_operation_mask	data_global.h	/^	int table_operation_mask;$/;"	m	struct:sqlite_operation
+table_select_mask	data_global.h	/^	int table_select_mask;$/;"	m	struct:sqlite_operation
+temMAX	setEnv.c	/^	int temMAX;$/;"	m	struct:setEnv	file:
+temMIN	setEnv.c	/^	int temMIN;$/;"	m	struct:setEnv	file:
+temperature	data_global.h	/^	float temperature;$/;"	m	struct:data_all
+temperature	data_global.h	/^	float temperature;$/;"	m	struct:storage_info
+temperatureMAX	data_global.h	/^	float temperatureMAX;$/;"	m	struct:storage_info
+temperatureMIN	data_global.h	/^	float temperatureMIN;$/;"	m	struct:storage_info
+text	beep.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	capture.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	data_global.h	/^	unsigned char text[QUEUE_MSG_LEN];$/;"	m	struct:msg
+text	led1.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	led2.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	led3.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	led4.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	m0_beep.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	m0_fan.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	m0_led.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	m0_seg.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	setEnv.c	/^	unsigned char text[N];$/;"	m	struct:msg	file:
+text	set_sms.c	/^	char text[N];$/;"	m	struct:msg	file:
+text	wifi.c	/^	char text[N];$/;"	m	struct:msg	file:
+tfileName	cgic.c	/^	char *tfileName;$/;"	m	struct:cgiFormEntryStruct	file:
+to_number	set_sms.c	/^	char to_number[12];$/;"	m	struct:From_to_send	file:
+type	beep.c	/^	long type;$/;"	m	struct:msg	file:
+type	capture.c	/^	long type;$/;"	m	struct:msg	file:
+type	data_global.h	/^	long type;$/;"	m	struct:msg
+type	led1.c	/^	long type;$/;"	m	struct:msg	file:
+type	led2.c	/^	long type;$/;"	m	struct:msg	file:
+type	led3.c	/^	long type;$/;"	m	struct:msg	file:
+type	led4.c	/^	long type;$/;"	m	struct:msg	file:
+type	m0_beep.c	/^	long type;$/;"	m	struct:msg	file:
+type	m0_fan.c	/^	long type;$/;"	m	struct:msg	file:
+type	m0_led.c	/^	long type;$/;"	m	struct:msg	file:
+type	m0_seg.c	/^	long type;$/;"	m	struct:msg	file:
+type	setEnv.c	/^	long type;$/;"	m	struct:msg	file:
+type	set_sms.c	/^	long type;$/;"	m	struct:msg	file:
+type	wifi.c	/^	long type;$/;"	m	struct:msg	file:
+val	sem.h	/^	int              val;    \/* Value for SETVAL *\/$/;"	m	union:semun
+value	cgic.c	/^	char *value;$/;"	m	struct:cgiFormEntryStruct	file:
+valueLength	cgic.c	/^	int valueLength;$/;"	m	struct:cgiFormEntryStruct	file:
+writePos	cgic.c	/^	int writePos;$/;"	m	struct:__anon4	file:
+x	data_global.h	/^	signed char x;$/;"	m	struct:storage_info
+y	data_global.h	/^	signed char y;$/;"	m	struct:storage_info
+z	data_global.h	/^	signed char z;$/;"	m	struct:storage_info
